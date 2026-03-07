@@ -1,34 +1,50 @@
 ﻿# Red Team Lab Foundation (Mini-Corp)
 
 ## Overview
-Personal red team lab to practice networking, VM operations, segmentation, and centralized logging in a safe environment.
+Personal red team lab to practice VM operations, basic networking validation, and centralized logging in a safe local environment.
 
 ## Scope (Lab-only)
 This lab is for local VMs only. No real-world targets. No credential harvesting.
 
-## What you will build
-- 1 attacker: Kali/Ubuntu
-- 1–2 victims: Windows + Ubuntu
-- 1 vulnerable service: DVWA / Juice Shop / Metasploitable
-- 1 log server: Splunk Free / ELK / Wazuh
+## Current Lab Components
+- 1 attacker/admin VM: Kali Linux
+- 1 vulnerable service VM: OWASP Juice Shop
+- 1 log server VM: Ubuntu syslog server
 
 ## Tech Stack
-- Hypervisor: VirtualBox/VMware
-- Networking: NAT / Host-only / (optional) bridged
-- Logging: Wazuh/ELK/Splunk (choose one)
+- Hypervisor: VirtualBox
+- Networking: internal lab connectivity validation
+- Logging: centralized syslog
+- Target app: OWASP Juice Shop
 
-## How to Run
-1. Follow build guide in docs/
-2. Bring up VMs
-3. Verify connectivity + log ingestion
-4. Use snapshots to reset after exercises
+## What was completed
+- Brought up the core lab VMs
+- Verified network connectivity
+- Verified Juice Shop service availability
+- Verified logging server operation
+- Captured validation screenshots
 
 ## Deliverables
 - Network diagram: docs/diagrams/
-- Build checklist + scripts: scripts/
-- Lab runbook (reset/snapshot/restore): docs/reports/
+- Reports / notes: docs/reports/
+- Validation screenshots: docs/screenshots/
+
+## Evidence
+
+### Juice Shop OK
+![JUICESHOP-OK](docs/screenshots/juiceshop-ok.png)
+
+### Logging OK
+![LOGGING-OK](docs/screenshots/logging-ok.png)
+
+### Network OK
+![NET-OK](docs/screenshots/net-ok.png)
 
 ## Status
+- [x] Core lab VMs running
+- [x] Network validation completed
+- [x] Juice Shop validation completed
+- [x] Logging validation completed
+- [x] Validation screenshots added
 - [ ] Diagram
-- [ ] Build checklist
 - [ ] Runbook
