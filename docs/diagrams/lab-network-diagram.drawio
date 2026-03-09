@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Trang-1" id="6s2ab4aFmlPT5cUu0AVC">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="370" width="610" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-4" edge="1" parent="1" source="hoj3jh1sY5GkJCSyiV7r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoj3jh1sY5GkJCSyiV7r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Kali Linux&lt;/div&gt;&lt;div&gt;Attacker / Admin VM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-6" edge="1" parent="1" source="hoj3jh1sY5GkJCSyiV7r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hoj3jh1sY5GkJCSyiV7r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;OWASP Juice Shop&lt;/div&gt;&lt;div&gt;Vulnerable Web App&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Ubuntu Syslog Server&lt;/div&gt;&lt;div&gt;Centralized Logging&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Access / testing" vertex="1">
+          <mxGeometry height="30" width="90" x="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Logging validation" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Mini-Corp Red Team Lab (Local Only)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="407.5" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoj3jh1sY5GkJCSyiV7r-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Platform: VirtualBox&lt;/div&gt;&lt;div&gt;Scope: Local lab only&lt;/div&gt;&lt;div&gt;Purpose: Connectivity, service validation, centralized logging&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="100" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
