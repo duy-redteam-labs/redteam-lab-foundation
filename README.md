@@ -24,6 +24,7 @@ This lab is for local VMs only. No real-world targets. No credential harvesting.
 - Verified logging server operation
 - Captured validation screenshots
 - Created the initial lab diagram
+- Documented startup, validation, and restore steps in the runbook
 
 ## Deliverables
 - Network diagram: docs/diagrams/
@@ -35,6 +36,10 @@ This lab is for local VMs only. No real-world targets. No credential harvesting.
 The diagram below shows the current foundation lab layout used for validation and logging checks.
 
 ![Lab Diagram](docs/diagrams/lab-network-diagram.png)
+
+## Runbook
+
+See the lab runbook here: [docs/reports/lab-runbook.md](docs/reports/lab-runbook.md)
 
 ## Evidence
 
@@ -54,4 +59,4 @@ The diagram below shows the current foundation lab layout used for validation an
 - [x] Logging validation completed
 - [x] Validation screenshots added
 - [x] Diagram
-- [ ] Runbook
+- [x] Runbook
